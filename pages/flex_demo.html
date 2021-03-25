@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen = My test page 2</title>
+    <style>
+        html {
+            background-color: black;
+
+        }
+
+        body {
+            padding: 2cm;
+
+        }
+
+        .headerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: crimson;
+            font-weight: bold;
+            font-family: Arial;
+            padding: 10px;
+            border: 5px solid white;
+
+
+        }
+
+        .footerContainer {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: lightgreen;
+            font-weight: bold;
+            padding: 10px;
+            border: 5px solid white;
+        }
+
+        .mainContainer {
+            display: flex;
+            flex-flow: row wrap;
+            font-weight: bold;
+            text-align: center;
+            border: 5px solid white;
+            border-top: 0px solid white;
+            border-bottom: 0px solid white;
+
+
+        }
+
+        .mainContentItem {
+            text-align: justify;
+            background: black;
+            flex: 3 0px;
+        }
+
+        .sideBarLeftItem {
+            background: yellow;
+            padding: 5px 5px 5px 5px;
+            text-align: justify;
+        }
+
+        .sideBarRighttItem {
+            background: red;
+            padding: 5px 5px 5px 5px;
+            text-align: justify;
+        }
+
+        article {
+            padding: 10px;
+            margin: 10px;
+            background: lightblue;
+        }
+
+        .sideBarItem {
+            flex: 1 0 0;
+            border: 5px solid rgb(27, 40, 226);
+        }
+
+        .sideBarLeftItem {
+            order: 1;
+        }
+
+        .mainContentItem {
+            order: 2;
+        }
+
+        .sideBarRighttItem {
+            order: 3;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="headerContainer">
+        <h1>Indian Festivals</h1>
+    </header>
+    <div class="mainContainer">
+        <section class="mainContentItem">
+            <article>
+                <h2>!! Deepawali !! </h2>
+                <p>Deepawali is the Indian festival of lights, usually lasting five days and celebrated
+                    during the Hindu Lunisolar month Kartika (between mid-October and mid-November). One of the
+                    most popular festivals of Hinduism, Diwali symbolizes the spiritual "victory of light over darkness,
+                    good over evil, and knowledge over ignorance".The festival is widely associated with
+                    Lakshmi, goddess of prosperity, with many other regional traditions connecting the holiday to Sita
+                    and Rama, Vishnu, Krishna, Yama, Yami, Durga, Kali, Hanuman, Ganesha, Kubera, Dhanvantari, or
+                    Vishvakarman. Furthermore, it is, in some regions, a celebration of the day Lord Rama returned to
+                    his kingdom Ayodhya after defeating the Lankan-king Ravana.
+                </p>
+            </article>
+            <article>
+                <h2>!! Christmas !! </h2>
+                <p>Christmas (or Feast of the Nativity) is an annual festival commemorating the birth of Jesus Christ,
+                    observed primarily on December 25 as a religious and cultural celebration among billions of
+                    people around the world. A feast central to the Christian liturgical year, it is preceded
+                    by the season of Advent or the Nativity Fast and initiates the season of Christmastide, which
+                    historically in the West lasts twelve days and culminates on Twelfth Night; in some traditions,
+                    Christmastide includes an octave. Christmas Day is a public holiday in many of the world's
+                    nations, is celebrated religiously by a majority of Christians, as well as
+                    culturally by many non-Christians, and forms an integral part of the holiday season centered
+                    around it.
+                </p>
+            </article>
+            <article>
+                <h2>!! Vijayadashmi !! </h2>
+                <p>Vijayadashami  also known as Dussehra, Dasara or Dashain, is a major Hindu
+                    festival celebrated at the end of Navaratri every year. It is observed on the tenth day in the Hindu
+                    calendar month of Ashvin, the seventh month of the Hindu Luni-Solar Calendar, which typically falls
+                    in the Gregorian months of September and October
+                </p>
+            </article>
+        </section>
+        <sidebar class="sideBarItem sideBarLeftItem">
+            <div class="center">
+                <h2>!! HOLI !!</h2>
+                <p>Holi is a popular ancient Hindu festival, also known as the Indian "festival of spring",
+                    the "festival of colours", or the "festival of love". The festival signifies the victory of
+                    good over evil. It originated and is predominantly celebrated in India, but has also spread
+                    to other regions of Asia and parts of the Western world through the diaspora from the Indian
+                    subcontinent.</p>
+            </div>
+        </sidebar>
+        <sidebar class="sideBarItem sideBarRighttItem">
+            <div class="center">
+                <h2>!! Navratri !!</h2>
+                <p>Navaratri is a Hindu festival that spans nine nights (and ten days) and is celebrated every year
+                    in the autumn. It is observed for different reasons and celebrated differently in various parts of
+                    the Indian cultural sphere. Theoretically, there are four seasonal Navaratri. However, in
+                    practice, it is the post-monsoon autumn festival called Sharada Navaratri that is the most
+                    observed in the honor of the divine feminine Devi (Durga). The festival is celebrated in the bright
+                    half of the Hindu calendar month Ashvin, which typically falls in the Gregorian months of September
+                    and October.</p>
+            </div>
+        </sidebar>
+    </div>
+    <footer class="footerContainer">
+        <p>To know more about us, click here : <strong> <a href="http://www.indianafestivals.com/"></strong>Indiana
+            Festivals</a>
+        </p>
+    </footer>
+</body>
+
+</html>

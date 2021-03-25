@@ -1,0 +1,51 @@
+
+html{
+    background-color: rgb(48, 134, 105);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    border: solid 2px black;
+    /* padding: 5px 5px; */
+    margin: 0px 0px;
+    display: flex;
+    min-height: 100vh;
+}
+
+#navigation{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    background: cyan;
+    flex: 1 1;
+}
+
+.common2 {
+    border: solid 2px orange;
+
+}
+
+#header, #footer{
+    border: solid 3px greenyellow;
+    height: 20vh;
+}
+
+.common1{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.common2{
+    display: flex;
+    flex-direction: row;
+}
+
+.common2 #article{
+    height: 60vh;
+    border: solid 2px black;
+    flex: 2 1;
+}

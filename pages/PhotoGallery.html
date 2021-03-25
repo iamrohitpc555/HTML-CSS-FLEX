@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+
+        html{
+            /* background-image: url('/Day35-HTML-CSS/assets/musicbg.jpg'); */
+            /* background-repeat: no-repeat; */
+            background-color: rgb(5, 5, 5);
+        }
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          flex-direction: row;
+          max-height: 100vh;
+          justify-content: space-evenly;
+        }
+        .cards img {
+          margin: 20px 20px;
+          border: 4px solid yellowgreen;
+          box-shadow: 3px 3px 8px 0px rgba(201, 25, 25, 0.3); 
+          width: 330px;
+          border-radius: 10px;
+        }
+
+        h1{
+            text-align: center;
+            color: whitesmoke;
+        }
+      </style>
+</head>
+<body>
+    <h1>90's Singers</h1>
+    <div class="cards">
+        <img src="/Day35-HTML-CSS/assets/uditnarayan.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/alkayagnik.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/kumarsanu.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/sonunigam.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/KK.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/shreya.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/shaan.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/spbala.jpg" alt="Sample photo">
+        <img src="/Day35-HTML-CSS/assets/abhijeet.jpg" alt="Sample photo">
+    </div>
+</body>
+</html>
